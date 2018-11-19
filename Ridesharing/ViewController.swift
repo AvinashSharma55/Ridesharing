@@ -79,9 +79,7 @@ class ViewController: UIViewController , DistanceCalculationInteractorProtocol {
             let alertController = UIAlertController(title: "Success", message: "You can take this ride", preferredStyle: .alert)
             let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
             alertController.addAction(defaultAction)
-            present(alertController, animated: true, completion: {
-                self.clearTextFields()
-            })
+            present(alertController, animated: true, completion: nil)
         }
         else {
             let alertController = UIAlertController(title: "OOPS", message: "You cannot take this ride", preferredStyle: .alert)
@@ -138,7 +136,7 @@ class ViewController: UIViewController , DistanceCalculationInteractorProtocol {
             }
         }
         let newDistance = distanceBetweenBaseOriginAndPickUpOrigin + distanceBetweenOriginAndDest + distanceBetweenDestAndBaseDest
-        if ((distanceBetweenBaseOriginAndBaseDest + 1.5) <= newDistance) {
+        if (newDistance <= (distanceBetweenBaseOriginAndBaseDest + 1.5)) {
             return true
         }
         return false
