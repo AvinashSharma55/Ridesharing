@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6591000A180C7F0A90AF659D /* Pods_RidesharingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7391634F961524963C6EE681 /* Pods_RidesharingUITests.framework */; };
+		76ED93CD7F61C3E2A3CCE91F /* Pods_RidesharingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8DFC6079D2ADAA3449C112 /* Pods_RidesharingTests.framework */; };
+		8B8D079D43C174A37732BDA1 /* Pods_Ridesharing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B467DE67BAE11DDFCB9859 /* Pods_Ridesharing.framework */; };
+		E1966DB921A2EAE1009E7952 /* DistanceMatrixModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1966DB821A2EAE1009E7952 /* DistanceMatrixModel.swift */; };
+		E1966DBC21A2FAC1009E7952 /* DistanceCalculationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1966DBB21A2FAC1009E7952 /* DistanceCalculationInteractor.swift */; };
+		E1966DBF21A3118D009E7952 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1966DBE21A3118D009E7952 /* Constants.swift */; };
+		E1B8270121A2BE7200E3DF61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B8270021A2BE7200E3DF61 /* AppDelegate.swift */; };
+		E1B8270321A2BE7200E3DF61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B8270221A2BE7200E3DF61 /* ViewController.swift */; };
+		E1B8270621A2BE7200E3DF61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1B8270421A2BE7200E3DF61 /* Main.storyboard */; };
+		E1B8270821A2BE7200E3DF61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1B8270721A2BE7200E3DF61 /* Assets.xcassets */; };
+		E1B8270B21A2BE7200E3DF61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1B8270921A2BE7200E3DF61 /* LaunchScreen.storyboard */; };
+		E1B8271621A2BE7200E3DF61 /* RidesharingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B8271521A2BE7200E3DF61 /* RidesharingTests.swift */; };
+		E1B8272121A2BE7200E3DF61 /* RidesharingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B8272021A2BE7200E3DF61 /* RidesharingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1B8271221A2BE7200E3DF61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1B826F521A2BE7200E3DF61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1B826FC21A2BE7200E3DF61;
+			remoteInfo = Ridesharing;
+		};
+		E1B8271D21A2BE7200E3DF61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1B826F521A2BE7200E3DF61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1B826FC21A2BE7200E3DF61;
+			remoteInfo = Ridesharing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5793CFC629C394CCB0659081 /* Pods-Ridesharing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ridesharing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ridesharing/Pods-Ridesharing.debug.xcconfig"; sourceTree = "<group>"; };
+		5A8DFC6079D2ADAA3449C112 /* Pods_RidesharingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RidesharingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7391634F961524963C6EE681 /* Pods_RidesharingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RidesharingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		798C68742EC076AD6FF1DB7E /* Pods-Ridesharing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ridesharing.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ridesharing/Pods-Ridesharing.release.xcconfig"; sourceTree = "<group>"; };
+		79B3440BC7C0AE1B97143C8C /* Pods-RidesharingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RidesharingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RidesharingTests/Pods-RidesharingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A286261EE0308164FCFC74B1 /* Pods-RidesharingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RidesharingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RidesharingUITests/Pods-RidesharingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A3B66672F3B8979CEDD9633F /* Pods-RidesharingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RidesharingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RidesharingUITests/Pods-RidesharingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6B467DE67BAE11DDFCB9859 /* Pods_Ridesharing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ridesharing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1966DB821A2EAE1009E7952 /* DistanceMatrixModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceMatrixModel.swift; sourceTree = "<group>"; };
+		E1966DBB21A2FAC1009E7952 /* DistanceCalculationInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceCalculationInteractor.swift; sourceTree = "<group>"; };
+		E1966DBE21A3118D009E7952 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E1B826FD21A2BE7200E3DF61 /* Ridesharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ridesharing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1B8270021A2BE7200E3DF61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1B8270221A2BE7200E3DF61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1B8270521A2BE7200E3DF61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1B8270721A2BE7200E3DF61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1B8270A21A2BE7200E3DF61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1B8270C21A2BE7200E3DF61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1B8271121A2BE7200E3DF61 /* RidesharingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RidesharingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1B8271521A2BE7200E3DF61 /* RidesharingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidesharingTests.swift; sourceTree = "<group>"; };
+		E1B8271721A2BE7200E3DF61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1B8271C21A2BE7200E3DF61 /* RidesharingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RidesharingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1B8272021A2BE7200E3DF61 /* RidesharingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidesharingUITests.swift; sourceTree = "<group>"; };
+		E1B8272221A2BE7200E3DF61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3ECD5F9B97C266412E18F21 /* Pods-RidesharingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RidesharingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RidesharingTests/Pods-RidesharingTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1B826FA21A2BE7200E3DF61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B8D079D43C174A37732BDA1 /* Pods_Ridesharing.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B8270E21A2BE7200E3DF61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76ED93CD7F61C3E2A3CCE91F /* Pods_RidesharingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B8271921A2BE7200E3DF61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6591000A180C7F0A90AF659D /* Pods_RidesharingUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BAE8E114B94136193DB8D3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5793CFC629C394CCB0659081 /* Pods-Ridesharing.debug.xcconfig */,
+				798C68742EC076AD6FF1DB7E /* Pods-Ridesharing.release.xcconfig */,
+				79B3440BC7C0AE1B97143C8C /* Pods-RidesharingTests.debug.xcconfig */,
+				E3ECD5F9B97C266412E18F21 /* Pods-RidesharingTests.release.xcconfig */,
+				A3B66672F3B8979CEDD9633F /* Pods-RidesharingUITests.debug.xcconfig */,
+				A286261EE0308164FCFC74B1 /* Pods-RidesharingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E1966DB721A2EAA8009E7952 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E1966DB821A2EAE1009E7952 /* DistanceMatrixModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E1966DBA21A2FA9E009E7952 /* Web Services */ = {
+			isa = PBXGroup;
+			children = (
+				E1966DBB21A2FAC1009E7952 /* DistanceCalculationInteractor.swift */,
+			);
+			path = "Web Services";
+			sourceTree = "<group>";
+		};
+		E1966DBD21A31175009E7952 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E1966DBE21A3118D009E7952 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E1B826F421A2BE7200E3DF61 = {
+			isa = PBXGroup;
+			children = (
+				E1B826FF21A2BE7200E3DF61 /* Ridesharing */,
+				E1B8271421A2BE7200E3DF61 /* RidesharingTests */,
+				E1B8271F21A2BE7200E3DF61 /* RidesharingUITests */,
+				E1B826FE21A2BE7200E3DF61 /* Products */,
+				3BAE8E114B94136193DB8D3A /* Pods */,
+				EB9C4ECCC592366640E42327 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E1B826FE21A2BE7200E3DF61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1B826FD21A2BE7200E3DF61 /* Ridesharing.app */,
+				E1B8271121A2BE7200E3DF61 /* RidesharingTests.xctest */,
+				E1B8271C21A2BE7200E3DF61 /* RidesharingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1B826FF21A2BE7200E3DF61 /* Ridesharing */ = {
+			isa = PBXGroup;
+			children = (
+				E1966DBD21A31175009E7952 /* Utils */,
+				E1966DBA21A2FA9E009E7952 /* Web Services */,
+				E1966DB721A2EAA8009E7952 /* Model */,
+				E1B8270021A2BE7200E3DF61 /* AppDelegate.swift */,
+				E1B8270221A2BE7200E3DF61 /* ViewController.swift */,
+				E1B8270421A2BE7200E3DF61 /* Main.storyboard */,
+				E1B8270721A2BE7200E3DF61 /* Assets.xcassets */,
+				E1B8270921A2BE7200E3DF61 /* LaunchScreen.storyboard */,
+				E1B8270C21A2BE7200E3DF61 /* Info.plist */,
+			);
+			path = Ridesharing;
+			sourceTree = "<group>";
+		};
+		E1B8271421A2BE7200E3DF61 /* RidesharingTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1B8271521A2BE7200E3DF61 /* RidesharingTests.swift */,
+				E1B8271721A2BE7200E3DF61 /* Info.plist */,
+			);
+			path = RidesharingTests;
+			sourceTree = "<group>";
+		};
+		E1B8271F21A2BE7200E3DF61 /* RidesharingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1B8272021A2BE7200E3DF61 /* RidesharingUITests.swift */,
+				E1B8272221A2BE7200E3DF61 /* Info.plist */,
+			);
+			path = RidesharingUITests;
+			sourceTree = "<group>";
+		};
+		EB9C4ECCC592366640E42327 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6B467DE67BAE11DDFCB9859 /* Pods_Ridesharing.framework */,
+				5A8DFC6079D2ADAA3449C112 /* Pods_RidesharingTests.framework */,
+				7391634F961524963C6EE681 /* Pods_RidesharingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1B826FC21A2BE7200E3DF61 /* Ridesharing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1B8272521A2BE7200E3DF61 /* Build configuration list for PBXNativeTarget "Ridesharing" */;
+			buildPhases = (
+				E854C847557BED3FC299A2E4 /* [CP] Check Pods Manifest.lock */,
+				E1B826F921A2BE7200E3DF61 /* Sources */,
+				E1B826FA21A2BE7200E3DF61 /* Frameworks */,
+				E1B826FB21A2BE7200E3DF61 /* Resources */,
+				EA4457D929F640B184669790 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ridesharing;
+			productName = Ridesharing;
+			productReference = E1B826FD21A2BE7200E3DF61 /* Ridesharing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1B8271021A2BE7200E3DF61 /* RidesharingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1B8272821A2BE7200E3DF61 /* Build configuration list for PBXNativeTarget "RidesharingTests" */;
+			buildPhases = (
+				B4552D6BDB2D12E7EAEB8545 /* [CP] Check Pods Manifest.lock */,
+				E1B8270D21A2BE7200E3DF61 /* Sources */,
+				E1B8270E21A2BE7200E3DF61 /* Frameworks */,
+				E1B8270F21A2BE7200E3DF61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1B8271321A2BE7200E3DF61 /* PBXTargetDependency */,
+			);
+			name = RidesharingTests;
+			productName = RidesharingTests;
+			productReference = E1B8271121A2BE7200E3DF61 /* RidesharingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1B8271B21A2BE7200E3DF61 /* RidesharingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1B8272B21A2BE7200E3DF61 /* Build configuration list for PBXNativeTarget "RidesharingUITests" */;
+			buildPhases = (
+				6B2470254915691C505404CC /* [CP] Check Pods Manifest.lock */,
+				E1B8271821A2BE7200E3DF61 /* Sources */,
+				E1B8271921A2BE7200E3DF61 /* Frameworks */,
+				E1B8271A21A2BE7200E3DF61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1B8271E21A2BE7200E3DF61 /* PBXTargetDependency */,
+			);
+			name = RidesharingUITests;
+			productName = RidesharingUITests;
+			productReference = E1B8271C21A2BE7200E3DF61 /* RidesharingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1B826F521A2BE7200E3DF61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Moveinsync;
+				TargetAttributes = {
+					E1B826FC21A2BE7200E3DF61 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					E1B8271021A2BE7200E3DF61 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E1B826FC21A2BE7200E3DF61;
+					};
+					E1B8271B21A2BE7200E3DF61 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E1B826FC21A2BE7200E3DF61;
+					};
+				};
+			};
+			buildConfigurationList = E1B826F821A2BE7200E3DF61 /* Build configuration list for PBXProject "Ridesharing" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1B826F421A2BE7200E3DF61;
+			productRefGroup = E1B826FE21A2BE7200E3DF61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1B826FC21A2BE7200E3DF61 /* Ridesharing */,
+				E1B8271021A2BE7200E3DF61 /* RidesharingTests */,
+				E1B8271B21A2BE7200E3DF61 /* RidesharingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1B826FB21A2BE7200E3DF61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1B8270B21A2BE7200E3DF61 /* LaunchScreen.storyboard in Resources */,
+				E1B8270821A2BE7200E3DF61 /* Assets.xcassets in Resources */,
+				E1B8270621A2BE7200E3DF61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B8270F21A2BE7200E3DF61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B8271A21A2BE7200E3DF61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B2470254915691C505404CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RidesharingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4552D6BDB2D12E7EAEB8545 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RidesharingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E854C847557BED3FC299A2E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ridesharing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA4457D929F640B184669790 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Ridesharing/Pods-Ridesharing-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ridesharing/Pods-Ridesharing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1B826F921A2BE7200E3DF61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1966DBF21A3118D009E7952 /* Constants.swift in Sources */,
+				E1966DB921A2EAE1009E7952 /* DistanceMatrixModel.swift in Sources */,
+				E1B8270321A2BE7200E3DF61 /* ViewController.swift in Sources */,
+				E1B8270121A2BE7200E3DF61 /* AppDelegate.swift in Sources */,
+				E1966DBC21A2FAC1009E7952 /* DistanceCalculationInteractor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B8270D21A2BE7200E3DF61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1B8271621A2BE7200E3DF61 /* RidesharingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B8271821A2BE7200E3DF61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1B8272121A2BE7200E3DF61 /* RidesharingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1B8271321A2BE7200E3DF61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1B826FC21A2BE7200E3DF61 /* Ridesharing */;
+			targetProxy = E1B8271221A2BE7200E3DF61 /* PBXContainerItemProxy */;
+		};
+		E1B8271E21A2BE7200E3DF61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1B826FC21A2BE7200E3DF61 /* Ridesharing */;
+			targetProxy = E1B8271D21A2BE7200E3DF61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1B8270421A2BE7200E3DF61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1B8270521A2BE7200E3DF61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1B8270921A2BE7200E3DF61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1B8270A21A2BE7200E3DF61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1B8272321A2BE7200E3DF61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1B8272421A2BE7200E3DF61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1B8272621A2BE7200E3DF61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5793CFC629C394CCB0659081 /* Pods-Ridesharing.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 456VG2638Z;
+				INFOPLIST_FILE = Ridesharing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Moveinsync.Ridesharing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1B8272721A2BE7200E3DF61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 798C68742EC076AD6FF1DB7E /* Pods-Ridesharing.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 456VG2638Z;
+				INFOPLIST_FILE = Ridesharing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Moveinsync.Ridesharing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E1B8272921A2BE7200E3DF61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79B3440BC7C0AE1B97143C8C /* Pods-RidesharingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 456VG2638Z;
+				INFOPLIST_FILE = RidesharingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Moveinsync.RidesharingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ridesharing.app/Ridesharing";
+			};
+			name = Debug;
+		};
+		E1B8272A21A2BE7200E3DF61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3ECD5F9B97C266412E18F21 /* Pods-RidesharingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 456VG2638Z;
+				INFOPLIST_FILE = RidesharingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Moveinsync.RidesharingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ridesharing.app/Ridesharing";
+			};
+			name = Release;
+		};
+		E1B8272C21A2BE7200E3DF61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3B66672F3B8979CEDD9633F /* Pods-RidesharingUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 456VG2638Z;
+				INFOPLIST_FILE = RidesharingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Moveinsync.RidesharingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ridesharing;
+			};
+			name = Debug;
+		};
+		E1B8272D21A2BE7200E3DF61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A286261EE0308164FCFC74B1 /* Pods-RidesharingUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 456VG2638Z;
+				INFOPLIST_FILE = RidesharingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Moveinsync.RidesharingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ridesharing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1B826F821A2BE7200E3DF61 /* Build configuration list for PBXProject "Ridesharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1B8272321A2BE7200E3DF61 /* Debug */,
+				E1B8272421A2BE7200E3DF61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1B8272521A2BE7200E3DF61 /* Build configuration list for PBXNativeTarget "Ridesharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1B8272621A2BE7200E3DF61 /* Debug */,
+				E1B8272721A2BE7200E3DF61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1B8272821A2BE7200E3DF61 /* Build configuration list for PBXNativeTarget "RidesharingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1B8272921A2BE7200E3DF61 /* Debug */,
+				E1B8272A21A2BE7200E3DF61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1B8272B21A2BE7200E3DF61 /* Build configuration list for PBXNativeTarget "RidesharingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1B8272C21A2BE7200E3DF61 /* Debug */,
+				E1B8272D21A2BE7200E3DF61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1B826F521A2BE7200E3DF61 /* Project object */;
+}

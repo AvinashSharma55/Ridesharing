@@ -1,0 +1,6 @@
+framework module Pods_RidesharingUITests {
+  umbrella header "Pods-RidesharingUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
